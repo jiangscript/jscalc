@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+#calc {
+	max-width: 320px;
+	margin: auto;
+}
+
+#result {
+	display: block;
+	width: 85%;
+	padding: 1em 0.5em;
+	text-align: right;
+	font-family: 'VT323', monospace;
+	font-size: 150%;
+
+}
+
+.button,
+.operator,
+#equals,
+#clear {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid green;
+	text-align: center;
+	padding: 1em 0;
+	margin: 0.3em 0;
+	border-radius: 1em;
+	cursor: pointer;
+}
+
