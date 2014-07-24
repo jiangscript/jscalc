@@ -16,7 +16,6 @@ $('.number, .operator').click(function() {
 
 $('#equals').click(function() { 
 	update();
-	state = '('+String(Number($('#result').val()))+')'
 });
 
 $('#clear').click(function(){
